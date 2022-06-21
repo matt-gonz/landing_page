@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sections-container{
+    display: flex;
+    flex-direction: column;
+    height: 1900px;
+}
+
+
+/* Section one styles */
+
+.section-one{
+    flex: 1;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px 250px; 
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navbar{
+    display: flex;
+    gap: 32px;
+    margin-left: auto;
+}
+
+.hero-content{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-image{
+    background-color: rgb(212, 211, 211);
+    height: 250px;
+}
+
+.left-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.right-content{
+    width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: stretch;
+    background-color: pink;
+}
+
+.hero-maintext{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.navbar a,
+.hero-secondarytext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 80px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Section two styles */
+.section-two{
+    flex: 1;
+    background-color: aqua;
+}
+
+
+/* Section three styles */
+.section-three{
+    flex: 1;
+    background-color: rgb(255, 0, 76);
+}
+
+
+/* Section four styles */
+.section-four{
+    flex: 1;
+    background-color: rgb(123, 255, 0);
+}
