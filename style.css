@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
 
 body{
     font-family: Roboto, sans-serif;
@@ -148,7 +148,26 @@ a{
 /* Section three styles */
 .section-three{
     flex: 1;
-    background-color: rgb(255, 0, 76);
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 0 325px;
+}
+
+.quote{
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    display: flex;
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: 900;
 }
 
 
