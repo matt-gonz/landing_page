@@ -6,9 +6,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
 }
 
 .sections-container{
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     height: 1900px;
@@ -23,16 +25,18 @@ body{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 10px 250px; 
-    box-sizing: border-box;
+    align-items: space-between;
 }
 
 .header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 10px 32px;
 }
 
 .logo{
+    display: flex;
     font-size: 24px;
     font-weight: 700;
     color: #f9faf8;
@@ -41,13 +45,16 @@ body{
 .navbar{
     display: flex;
     gap: 32px;
-    margin-left: auto;
+    justify-content: flex-end;
 }
 
 .hero-content{
+    min-width: 30%;
+    max-width: 80%;
     flex: 1;
     display: flex;
-    justify-content: space-between;
+    align-self: center;
+    justify-content: center;
     gap: 60px;
 }
 
@@ -62,6 +69,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     gap: 8px;
+    min-width: 300px;
 }
 
 .right-content{
@@ -143,13 +151,12 @@ a:active{
 
 .cards-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 300px; 
-    gap: 30px;
+    gap: 100px;
 }
 
 .card{
-    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,14 +165,15 @@ a:active{
 }
 
 .card img{
-    width: 200px;
-    height: 200px;
+    display: flex;
+    max-width: 100%;
     border: 4px solid #3882f6;
     border-radius: 20px; 
 }
 
 .description{
     color: #1f2937;
+    max-width: 100%;
 }
 
 
@@ -177,10 +185,10 @@ a:active{
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
-    padding: 0 325px;
 }
 
 .quote{
+    max-width: 80%;
     font-weight: 300;
     font-size: 36px;
     font-style: italic;
@@ -192,6 +200,7 @@ a:active{
     align-self: flex-end;
     font-size: 22px;
     font-weight: 900;
+    padding: 0 150px;
 }
 
 
@@ -200,13 +209,13 @@ a:active{
     flex: 0.8;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
     background-color: #f9faf8;
-    padding: 0 200px;
 }
 
 .cta-container{
+    max-width: 80%;
     background-color: #3882f6;
     display: flex;
     align-items: center;
