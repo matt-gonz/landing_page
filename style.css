@@ -13,7 +13,7 @@ body{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    height: 1900px;
+    height: 2000px;
 }
 
 
@@ -58,11 +58,6 @@ body{
     gap: 60px;
 }
 
-.hero-image{
-    background-color: rgb(212, 211, 211);
-    height: 250px;
-}
-
 .left-content{
     flex: 1;
     display: flex;
@@ -73,13 +68,17 @@ body{
 }
 
 .right-content{
-    width: 650px;
+    width: 600px;
     height: 250px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    align-items: stretch;
     background-color: pink;
+}
+
+.hero-image{
+    background-size: cover;
+    overflow: hidden;
 }
 
 .hero-maintext{
@@ -236,7 +235,7 @@ a:active{
 }
 
 .cta-container .signup-button{
-    width: 150px;
+    width: 160px;
     color: #f9faf8;
     border: 2px solid #f9faf8;
     border-radius: 5px;
