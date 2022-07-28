@@ -170,7 +170,7 @@ a:active{
 .card img{
     display: flex;
     min-width: none;
-    max-width: 90%;
+    max-width: 80%;
     border: 4px solid #3882f6;
     border-radius: 20px; 
 }
@@ -193,24 +193,15 @@ a:active{
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    justify-content: center;
-    align-items: center;
+    gap: 40px;
 }
 
-.quote{
-    max-width: 80%;
-    font-weight: 300;
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
-}
-
-.author{
+.social-links{
     display: flex;
-    align-self: flex-end;
-    font-size: 22px;
-    font-weight: 900;
-    padding: 0 150px;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -263,4 +254,8 @@ a:active{
     align-items: center;
     background-color: #1f2937;
     color: #E5E7EB;
+}
+
+a{
+    color: rgb(53, 53, 53);
 }
